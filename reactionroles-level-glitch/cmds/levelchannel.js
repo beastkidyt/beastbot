@@ -3,7 +3,7 @@ const db = require("quick.db")
 module.exports.run = async(client,message,args)=> {
 
  let channel = message.mentions.channels.first() 
-  if(!channel) return message.channel.send(`Please mention a channel`)
+  if(!channel) return message.channel.send(`756476134710968321`)
  
     let embed = new Discord.MessageEmbed()
     .setColor("GREEN")
